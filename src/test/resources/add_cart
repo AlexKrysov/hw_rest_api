@@ -77,3 +77,23 @@ curl 'https://demowebshop.tricentis.com/addproducttocart/details/72/1' \
     -H 'sec-ch-ua-platform: "Windows"' \
     --data-raw 'product_attribute_72_5_18=53&product_attribute_72_6_19=54&product_attribute_72_3_20=57&addtocart_72.EnteredQuantity=1' \
     --compressed
+
+
+    curl 'https://demowebshop.tricentis.com/addproducttocart/details/74/1' \
+      -H 'Accept: */*' \
+      -H 'Accept-Language: ru,en;q=0.9' \
+      -H 'Connection: keep-alive' \
+      -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+      -H 'Cookie: __utmz=78382081.1674481440.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); NOPCOMMERCE.AUTH=0B7E2440DA0113183F94928F4F9226C4D9D9158080EE0A2C67705BA586A922E8599AB4412418CB0775559FA73573380AA8CC5C455F5EDE4C92DCCD05605D5213621BDEF00D0DADEE1908731F78804A4B3541F852503CC45C348FF0501848F146A5A282EA9798A1639BCFE882FA2ED26E5A449E3BAD318808383677A1DF072C4642540A0262946048BC60119B1715BABC; Nop.customer=ac53b388-41de-4358-a0ae-86b63de32ec3; __utma=78382081.1460129477.1674481440.1674545061.1674563131.3; __utmc=78382081; ARRAffinity=754c43f3fb666b4689fd8452291c08520e941e1737ad17b31babd87059cc27ae; ARRAffinitySameSite=754c43f3fb666b4689fd8452291c08520e941e1737ad17b31babd87059cc27ae; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=74&RecentlyViewedProductIds=31&RecentlyViewedProductIds=32&RecentlyViewedProductIds=72; __atuvc=12%7C4; __atuvs=63cfce3ac425bd87006; __utmt=1; __utmb=78382081.14.10.1674563131' \
+      -H 'Origin: https://demowebshop.tricentis.com' \
+      -H 'Referer: https://demowebshop.tricentis.com/build-your-own-expensive-computer-2' \
+      -H 'Sec-Fetch-Dest: empty' \
+      -H 'Sec-Fetch-Mode: cors' \
+      -H 'Sec-Fetch-Site: same-origin' \
+      -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 YaBrowser/22.11.5.715 Yowser/2.5 Safari/537.36' \
+      -H 'X-Requested-With: XMLHttpRequest' \
+      -H 'sec-ch-ua: "Chromium";v="106", "Yandex";v="22", "Not;A=Brand";v="99"' \
+      -H 'sec-ch-ua-mobile: ?0' \
+      -H 'sec-ch-ua-platform: "Windows"' \
+      --data-raw 'product_attribute_74_5_26=81&product_attribute_74_6_27=83&product_attribute_74_3_28=86&product_attribute_74_8_29=89&addtocart_74.EnteredQuantity=1' \
+      --compressed
