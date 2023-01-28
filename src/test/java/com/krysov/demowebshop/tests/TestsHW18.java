@@ -1,4 +1,4 @@
-package com.krysov.demoWebShopTests;
+package com.krysov.demowebshop.tests;
 
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.BeforeAll;
@@ -8,6 +8,7 @@ import static org.hamcrest.Matchers.is;
 import static io.restassured.RestAssured.given;
 
 public class TestsHW18 {
+
     String cookieValue = "0B7E2440DA0113183F94928F4F9226C4D9D9158080EE0A2C67705BA586A922" +
             "E8599AB4412418CB0775559FA73573380AA8CC5C455F5EDE4C92DCCD05605D5213621BDEF00" +
             "D0DADEE1908731F78804A4B3541F852503CC45C348FF0501848F146A5A282EA9798A1639BCF" +
@@ -30,6 +31,7 @@ public class TestsHW18 {
                 .body("success", is(true))
                 .body("message", is("The product has been added to your <a href=\"/cart\">shopping cart</a>"));
     }
+
     @Test
     void  addComputerToCertTest(){
         given()
@@ -45,6 +47,7 @@ public class TestsHW18 {
                 .body("success", is(true))
                 .body("message", is("The product has been added to your <a href=\"/cart\">shopping cart</a>"));
     }
+
     @Test
     void  addGiftCardToCertTest(){
         given()
@@ -61,6 +64,7 @@ public class TestsHW18 {
                 .body("success", is(true))
                 .body("message", is("The product has been added to your <a href=\"/cart\">shopping cart</a>"));
     }
+    
     @Test
     void  changeNameAndEmailForGiftCardTest(){
         given()
